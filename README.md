@@ -14,14 +14,14 @@ turtlebot3_ws/
 │ │ ├── src/  
 │ │ │ ├── convert_pcd2img.cpp # Point cloud to image converter  
 │ │ │ └── depthviewer.cpp # Depth data visualizer  
-│ ├── ultralytics_ros/ # SAM integration  
-│ │ ├── launch/  
-│ │ │ └── detect_obstacle.launch.py  
-│ │ ├── scripts/  
-│ │ │ └── sam_node.py  
-│ │ └── msg/  
-│ │ └── Segmentation.msg  
-│ └── crewAI/ # AI agent framework  
+│ └── ultralytics_ros/ # SAM integration  
+│   ├── launch/  
+│   │ └── detect_obstacle.launch.py  
+│   ├── scripts/  
+│   │ └── sam_node.py  
+│   └── msg/  
+│   └── Segmentation.msg  
+│   
 └── build/  
 
 ## 🚀 Features
@@ -76,3 +76,51 @@ ros2 launch ultralytics_ros detect_obstacle.launch.py
 # Enable test mode
 ros2 launch ultralytics_ros detect_obstacle.launch.py enable_test_mode:=True
 ```
+
+📊 Node Configuration
+SAM Node (sam_node.py)
+| Parameter   |	Default Value           |	Description          |
+| ----------- | ----------------------- | ---------------------|
+| sam_model   |	FastSAM-s.pt            | Model weights file   |
+| input_image |	camera/color/image_raw  |	RGB input topic      |
+| seg_conf    | 0.7                     | Confidence threshold |
+
+⚙️ Custom Configurations
+Navigation Parameters
+File: /opt/ros/humble/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+```bash
+<!-- Modified recovery parameters -->
+<Spin spin_dist="3.14"/>  <!-- Original: 1.57 -->
+<BackUp backup_dist="0.20" backup_speed="0.05"/>  <!-- Original: 0.30 -->
+```
+TurtleBot3 URDF Modifications
+File: turtlebot3_description/urdf/turtlebot3_waffle.urdf
+```bash
+<joint name="scan_joint" type="fixed">
+  <origin xyz="-0.004 0 0.122" rpy="0 0 0"/> <!-- Original: -0.064 -->
+</joint>
+```
+
+🚨 Troubleshooting
+<details> <summary>Open3D Build Error: Filament Compilation Failure</summary>
+
+```bash
+# Solution: Disable GUI components
+cmake .. -DBUILD_GUI=OFF
+rm -rf build/ && mkdir build && cd build
+make -j$(nproc)
+```
+
+</details>
+
+<details> <summary>PyTorch Installation Issues on Jetson</summary>
+  
+```bash
+  # Verify JetPack version
+  sudo jtop
+  # Install from NVIDIA repository
+  sudo apt-get install python3-pip libopenblas-base libopenmpi-dev 
+  pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cu121
+```
+
+</details>
