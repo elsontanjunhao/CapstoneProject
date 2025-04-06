@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/elsontjh/ros2_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages",
+        "/home/elsontjh/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/elsontjh/ros2_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages",
+        "/home/elsontjh/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

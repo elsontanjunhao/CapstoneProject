@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/elsontjh/ros2_ws/install/ultralytics_ros/include/**",
+        "/home/elsontjh/ros2_ws/install/orbbec_camera/include/**",
+        "/home/elsontjh/ros2_ws/install/orbbec_camera_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/elsontjh/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/include/**",
+        "/home/elsontjh/ros2_ws/src/ultralytics_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
