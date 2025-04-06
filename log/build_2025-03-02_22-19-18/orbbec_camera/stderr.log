@@ -1,0 +1,14 @@
+In file included from [01m[K/usr/include/open3d/Open3D.h:31[m[K,
+                 from [01m[K/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera/src/convert_pcd2img.cpp:7[m[K:
+[01m[K/usr/include/open3d/camera/PinholeCameraIntrinsic.h:[m[K In member function ‘[01m[Kstd::pair<double, double> open3d::camera::PinholeCameraIntrinsic::GetFocalLength() const[m[K’:
+[01m[K/usr/include/open3d/camera/PinholeCameraIntrinsic.h:93:54:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+   93 |     std::pair<double, double> GetFocalLength() const [01;36m[K{[m[K
+      |                                                      [01;36m[K^[m[K
+In file included from [01m[K/usr/include/open3d/Open3D.h:31[m[K,
+                 from [01m[K/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera/src/convert_pcd2img.cpp:7[m[K:
+[01m[K/usr/include/open3d/camera/PinholeCameraIntrinsic.h:[m[K In member function ‘[01m[Kstd::pair<double, double> open3d::camera::PinholeCameraIntrinsic::GetFocalLength() const[m[K’:
+[01m[K/usr/include/open3d/camera/PinholeCameraIntrinsic.h:93:54:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+   93 |     std::pair<double, double> GetFocalLength() const [01;36m[K{[m[K
+      |                                                      [01;36m[K^[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410

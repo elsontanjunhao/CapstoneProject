@@ -1,0 +1,36 @@
+[1.566s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ld08_driver -- -j6 -l6
+[2.531s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[2.578s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[2.623s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[2.635s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[2.656s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[21.842s] [01m[K/home/orin_nano/turtlebot3_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[21.843s] [01m[K/home/orin_nano/turtlebot3_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.843s]    30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+[21.843s]       |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[28.850s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[29.351s] [100%] Built target ld08_driver
+[29.381s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ld08_driver -- -j6 -l6
+[29.386s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ld08_driver
+[29.551s] -- Install configuration: ""
+[29.564s] -- Execute custom install script
+[29.564s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[29.565s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+[29.565s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[29.566s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[29.567s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[29.567s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[29.567s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+[29.568s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[29.568s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+[29.569s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+[29.570s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[29.570s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[29.571s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+[29.592s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[29.594s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.595s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.596s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[29.599s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[29.599s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml
+[29.601s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ld08_driver

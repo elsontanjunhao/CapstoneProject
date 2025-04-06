@@ -1,0 +1,8 @@
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libdepthengine.so
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libdepthengine.so.2.0
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libob_usb.so
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.17
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//liblive555.so
+/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.15

@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h

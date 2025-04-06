@@ -1,0 +1,7 @@
+{
+  "package_name": "ultralytics_ros",
+  "non_idl_tuples": [
+    "/home/orin_nano/turtlebot3_ws/src/ultralytics_ros:msg/YoloResult.msg",
+    "/home/orin_nano/turtlebot3_ws/src/ultralytics_ros:msg/Segmentation.msg"
+  ]
+}

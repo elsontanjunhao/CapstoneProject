@@ -1,0 +1,150 @@
+[0.044s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 56694 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ultralytics_ros -- -j6 -l6
+[0.474s] [  9%] Built target ultralytics_ros__rosidl_generator_c
+[0.494s] [ 12%] Built target ultralytics_ros__cpp
+[0.574s] [ 12%] Built target ament_cmake_python_symlink_ultralytics_ros
+[0.585s] [ 21%] Built target ultralytics_ros__rosidl_typesupport_introspection_c
+[0.607s] [ 31%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_c
+[0.652s] [ 41%] Built target ultralytics_ros__rosidl_typesupport_introspection_cpp
+[0.653s] [ 51%] Built target ultralytics_ros__rosidl_typesupport_c
+[0.662s] [ 60%] Built target ultralytics_ros__rosidl_typesupport_cpp
+[0.720s] [ 70%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_cpp
+[0.927s] [ 70%] Built target ultralytics_ros
+[1.009s] [ 75%] Built target tracker_with_cloud_node
+[1.028s] [ 78%] Built target ultralytics_ros__py
+[1.093s] [ 85%] Built target ultralytics_ros__rosidl_generator_py
+[1.181s] [ 90%] Built target ultralytics_ros__rosidl_typesupport_c__pyext
+[1.192s] [ 95%] Built target ultralytics_ros__rosidl_typesupport_introspection_c__pyext
+[1.195s] [100%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext
+[1.293s] running egg_info
+[1.294s] writing ultralytics_ros.egg-info/PKG-INFO
+[1.295s] writing dependency_links to ultralytics_ros.egg-info/dependency_links.txt
+[1.296s] writing top-level names to ultralytics_ros.egg-info/top_level.txt
+[1.304s] reading manifest file 'ultralytics_ros.egg-info/SOURCES.txt'
+[1.305s] writing manifest file 'ultralytics_ros.egg-info/SOURCES.txt'
+[1.381s] [100%] Built target ament_cmake_python_build_ultralytics_ros_egg
+[1.417s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 56694 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ultralytics_ros -- -j6 -l6
+[1.423s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 56694 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ultralytics_ros
+[1.595s] -- Install configuration: ""
+[1.596s] -- Execute custom install script
+[1.596s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ament_index/resource_index/rosidl_interfaces/ultralytics_ros
+[1.598s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__functions.h
+[1.599s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__struct.h
+[1.599s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__type_support.h
+[1.599s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__functions.h
+[1.600s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__struct.h
+[1.600s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__type_support.h
+[1.600s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_generator_c__visibility_control.h
+[1.601s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/segmentation.h
+[1.601s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/yolo_result.h
+[1.602s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/library_path.sh
+[1.602s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/library_path.dsv
+[1.603s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__rosidl_typesupport_fastrtps_c.h
+[1.603s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_fastrtps_c.h
+[1.604s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.605s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__builder.hpp
+[1.605s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__struct.hpp
+[1.605s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__traits.hpp
+[1.606s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__type_support.hpp
+[1.606s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__builder.hpp
+[1.606s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__struct.hpp
+[1.607s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__traits.hpp
+[1.607s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__type_support.hpp
+[1.607s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.608s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/segmentation.hpp
+[1.608s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/yolo_result.hpp
+[1.609s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__rosidl_typesupport_fastrtps_cpp.hpp
+[1.609s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.610s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.611s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__rosidl_typesupport_introspection_c.h
+[1.611s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_introspection_c.h
+[1.611s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.612s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/segmentation__rosidl_typesupport_introspection_cpp.hpp
+[1.613s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_introspection_cpp.hpp
+[1.613s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/pythonpath.sh
+[1.613s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/pythonpath.dsv
+[1.614s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/PKG-INFO
+[1.614s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.615s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.615s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/top_level.txt
+[1.617s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/__init__.py
+[1.617s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_c.c
+[1.617s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.618s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_introspection_c.c
+[1.618s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/libultralytics_ros__rosidl_generator_py.so
+[1.619s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/__init__.py
+[1.619s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_segmentation.py
+[1.619s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_segmentation_s.c
+[1.620s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_yolo_result.py
+[1.620s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_yolo_result_s.c
+[1.620s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.621s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.621s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.622s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.622s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.623s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.623s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/msg/YoloResult.idl
+[1.624s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/msg/Segmentation.idl
+[1.624s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/msg/YoloResult.msg
+[1.625s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/msg/Segmentation.msg
+[1.625s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_with_cloud_node
+[1.626s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_node.py
+[1.626s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/ultralytics_ros/sam_node.py
+[1.626s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/ultralytics_ros/VLM.py
+[1.627s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/ultralytics_ros/rosout_listener.py
+[1.628s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/launch/detect_obstacle.launch.py
+[1.629s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/launch/kitti_tracker.launch.xml
+[1.629s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/launch/kitti_tracker_with_cloud.launch.xml
+[1.629s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker.launch.xml
+[1.630s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker_with_cloud.launch.xml
+[1.632s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/rviz2/default.rviz
+[1.633s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/rviz2/kitti.rviz
+[1.634s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ament_index/resource_index/package_run_dependencies/ultralytics_ros
+[1.645s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ament_index/resource_index/parent_prefix_path/ultralytics_ros
+[1.650s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/ament_prefix_path.sh
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/ament_prefix_path.dsv
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/path.sh
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/environment/path.dsv
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.bash
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.sh
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.zsh
+[1.651s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.dsv
+[1.651s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv
+[1.668s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ament_index/resource_index/packages/ultralytics_ros
+[1.669s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake-extras.cmake
+[1.669s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.669s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.670s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.672s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_targets-extras.cmake
+[1.673s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.673s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.673s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_rosConfig.cmake
+[1.673s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_rosConfig-version.cmake
+[1.674s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.xml
+[1.675s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_generator_c.so
+[1.676s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_fastrtps_c.so
+[1.676s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_fastrtps_cpp.so
+[1.682s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_introspection_c.so
+[1.683s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_c.so
+[1.683s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_introspection_cpp.so
+[1.683s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_cpp.so
+[1.758s] Listing '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros'...
+[1.761s] Listing '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg'...
+[1.774s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_generator_py.so
+[1.776s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cExport.cmake
+[1.776s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cExport-noconfig.cmake
+[1.776s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[1.777s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.778s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cppExport.cmake
+[1.778s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.778s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.779s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cExport.cmake
+[1.780s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.780s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cExport.cmake
+[1.781s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cExport-noconfig.cmake
+[1.781s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cppExport.cmake
+[1.781s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.781s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cppExport.cmake
+[1.781s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[1.787s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_pyExport.cmake
+[1.788s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_pyExport-noconfig.cmake
+[1.811s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 56694 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ultralytics_ros

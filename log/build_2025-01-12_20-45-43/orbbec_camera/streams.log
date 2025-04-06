@@ -1,0 +1,142 @@
+[0.064s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera -- -j6 -l6
+[0.228s] [  5%] Built target frame_latency
+[0.235s] [ 11%] Built target orbbec_camera_node
+[0.247s] [ 17%] Built target depth_viewer_component
+[0.251s] [ 23%] Built target frame_latency_node
+[0.266s] [ 29%] Built target depth_viewer_composable_node
+[0.303s] [ 64%] Built target orbbec_camera
+[0.406s] [ 76%] Built target list_depth_work_mode_node
+[0.407s] [ 76%] Built target list_devices_node
+[0.422s] [ 88%] Built target list_camera_profile_mode_node
+[0.424s] [ 88%] Built target depth_viewer_node
+[0.427s] [ 94%] Built target topic_statistics_node
+[0.430s] [100%] Built target pointcloud_to_image_mapper_node
+[0.464s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera -- -j6 -l6
+[0.469s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera
+[0.483s] -- Install configuration: "Release"
+[0.484s] -- Execute custom install script
+[0.485s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[0.486s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node
+[0.487s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera/depth_viewer_composable_node
+[0.487s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[0.487s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/libframe_latency.so
+[0.488s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/libdepth_viewer_component.so
+[0.489s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[0.490s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[0.490s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[0.490s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[0.491s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h
+[0.491s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+[0.492s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+[0.492s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[0.492s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[0.493s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+[0.493s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[0.494s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[0.495s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[0.496s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+[0.496s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+[0.497s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py
+[0.497s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py
+[0.498s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py
+[0.498s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py
+[0.498s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py
+[0.499s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py
+[0.499s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py
+[0.500s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py
+[0.500s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+[0.500s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py
+[0.501s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py
+[0.502s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py
+[0.502s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+[0.503s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py
+[0.503s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py
+[0.504s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+[0.505s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+[0.505s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+[0.506s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_net_camera.launch.py
+[0.506s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+[0.507s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+[0.507s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py
+[0.508s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py
+[0.509s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+[0.509s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py
+[0.510s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py
+[0.510s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py
+[0.511s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py
+[0.511s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py
+[0.512s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py
+[0.512s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+[0.513s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+[0.513s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_net_camera.launch.py
+[0.514s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py
+[0.516s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[0.516s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+[0.516s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+[0.516s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.8.json
+[0.517s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+[0.518s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[0.518s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[0.519s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[0.519s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[0.519s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[0.520s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[0.520s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[0.520s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+[0.520s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[0.521s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[0.521s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[0.521s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[0.522s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[0.522s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[0.522s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+[0.523s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[0.523s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[0.524s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[0.524s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[0.525s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[0.526s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[0.526s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[0.526s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[0.526s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[0.527s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[0.527s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[0.528s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+[0.528s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[0.529s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//list_devices_node
+[0.529s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//list_depth_work_mode_node
+[0.530s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//list_camera_profile_mode_node
+[0.530s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//topic_statistics_node
+[0.531s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//depth_viewer_node
+[0.531s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/orbbec_camera//pointcloud_to_image_mapper_node
+[0.532s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[0.532s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[0.532s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[0.533s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[0.533s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[0.534s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[0.534s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[0.534s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[0.535s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[0.535s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[0.536s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[0.536s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[0.536s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[0.554s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[0.555s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+[0.559s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.560s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.560s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.560s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[0.560s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[0.560s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[0.561s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/
+[0.561s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libdepthengine.so
+[0.561s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libdepthengine.so.2.0
+[0.561s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libob_usb.so
+[0.561s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+[0.562s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[0.562s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.17
+[0.562s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//liblive555.so
+[0.562s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.15
+[0.582s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera

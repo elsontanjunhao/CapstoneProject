@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/rosidl_generator_py/orbbec_camera_msgs/srv/_set_string.py

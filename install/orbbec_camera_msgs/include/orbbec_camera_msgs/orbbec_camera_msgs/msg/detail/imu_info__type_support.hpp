@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/rosidl_generator_cpp/orbbec_camera_msgs/msg/detail/imu_info__type_support.hpp

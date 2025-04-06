@@ -1,0 +1,20 @@
+[2.321s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example': NX_CONNECTION=192.168.1.69 33062 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[3.000s] running develop
+[3.450s] running egg_info
+[3.450s] writing turtlebot3_example.egg-info/PKG-INFO
+[3.450s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[3.451s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[3.451s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[3.451s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[3.456s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.457s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.460s] running build_ext
+[3.460s] Creating /home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[3.462s] Installing turtlebot3_obstacle_detection script to /home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.462s] Installing turtlebot3_patrol_client script to /home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.462s] Installing turtlebot3_patrol_server script to /home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.463s] Installing turtlebot3_position_control script to /home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.463s] 
+[3.463s] Installed /home/orin_nano/turtlebot3_ws/build/turtlebot3_example
+[3.463s] running symlink_data
+[3.565s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example' returned '0': NX_CONNECTION=192.168.1.69 33062 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

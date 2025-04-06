@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a84fa393ad20375f79b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "ultralytics_ros__py",
+					"jsonFile" : "directory-ultralytics_ros__py-6d90ce557bb2143c54cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/orin_nano/turtlebot3_ws/build/ultralytics_ros/ultralytics_ros__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ultralytics_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ultralytics_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ultralytics_ros_egg-4135414495ed9ba26ad7.json",
+					"name" : "ament_cmake_python_build_ultralytics_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ultralytics_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ultralytics_ros-fdc8c9bf1bbfb25e88be.json",
+					"name" : "ament_cmake_python_symlink_ultralytics_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracker_with_cloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracker_with_cloud_node-b56b187eb3dee4d71538.json",
+					"name" : "tracker_with_cloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros-675a084f99ff20231b66.json",
+					"name" : "ultralytics_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__cpp-b2f12809da48eab07458.json",
+					"name" : "ultralytics_ros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ultralytics_ros__py::@423731528d3924ad3050",
+					"jsonFile" : "target-ultralytics_ros__py-cc006f3b4076517198e4.json",
+					"name" : "ultralytics_ros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_generator_c-463f13435d87f5d87d1a.json",
+					"name" : "ultralytics_ros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_generator_py-b813289139a7055dce7d.json",
+					"name" : "ultralytics_ros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_c-2409094c110afb8ddacf.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_c__pyext-a93dc12b4ade67d05f9c.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_cpp-3e43da52fef82f87a62f.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_fastrtps_c-f87bed5050aa89193bf2.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext-2ddc5a01ee304acb359d.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_fastrtps_cpp-549393d4103daa87db5f.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_introspection_c-7efc580a662dfd38ac6c.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_introspection_c__pyext-44020c4fdf604bd96a3b.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros__rosidl_typesupport_introspection_cpp-28a76de5c567e49c16eb.json",
+					"name" : "ultralytics_ros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultralytics_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultralytics_ros_uninstall-941c07cb433323dcbb0d.json",
+					"name" : "ultralytics_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-251cc4a27cc7a8accd48.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orin_nano/turtlebot3_ws/build/ultralytics_ros",
+		"source" : "/home/orin_nano/turtlebot3_ws/src/ultralytics_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

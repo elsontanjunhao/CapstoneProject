@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orin_nano/turtlebot3_ws/build/orbbec_camera/liborbbec_camera.so" "/home/orin_nano/turtlebot3_ws/build/orbbec_camera/libframe_latency.so" "TARGETS" "orbbec_camera" "frame_latency" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

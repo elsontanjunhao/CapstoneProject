@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orin_nano/turtlebot3_ws/build/orbbec_camera/libdepth_viewer_component.so" "TARGETS" "depth_viewer_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

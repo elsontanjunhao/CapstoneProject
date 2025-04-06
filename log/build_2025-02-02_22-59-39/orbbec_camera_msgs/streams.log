@@ -1,0 +1,343 @@
+[0.086s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45202 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs -- -j6 -l6
+[1.488s] [  0%] Built target orbbec_camera_msgs__cpp
+[1.488s] [  0%] Built target ament_cmake_python_symlink_orbbec_camera_msgs
+[1.488s] [ 12%] Built target orbbec_camera_msgs__rosidl_generator_c
+[1.489s] [ 24%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp
+[1.489s] [ 35%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.489s] [ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.489s] [ 59%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c
+[1.489s] [ 71%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c
+[1.490s] [ 83%] Built target orbbec_camera_msgs__rosidl_typesupport_c
+[1.490s] [ 83%] Built target orbbec_camera_msgs
+[1.490s] [ 84%] Built target orbbec_camera_msgs__py
+[1.490s] [ 85%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_info_s.c.o[0m
+[1.491s] [ 86%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_extrinsics_s.c.o[0m
+[1.491s] [ 86%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_metadata_s.c.o[0m
+[1.491s] [ 87%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_imu_info_s.c.o[0m
+[1.491s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_rgbd_s.c.o[0m
+[1.493s] running egg_info
+[1.494s] writing orbbec_camera_msgs.egg-info/PKG-INFO
+[1.494s] writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt
+[1.494s] writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt
+[1.494s] reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[1.494s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[1.494s] [ 88%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg
+[1.495s] [ 89%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_bool_s.c.o[0m
+[1.495s] [ 91%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_device_info_s.c.o[0m
+[1.495s] [ 91%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[1.495s] [ 92%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_int32_s.c.o[0m
+[1.495s] [ 92%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_string_s.c.o[0m
+[1.495s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_int32_s.c.o[0m
+[1.495s] [ 94%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_string_s.c.o[0m
+[1.681s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so[0m
+[1.798s] [ 95%] Built target orbbec_camera_msgs__rosidl_generator_py
+[1.875s] [ 96%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.889s] [ 96%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.910s] [ 97%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.368s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.439s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.513s] [ 99%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.520s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.561s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext
+[2.631s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[2.677s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45202 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs -- -j6 -l6
+[2.682s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45202 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs
+[2.875s] -- Install configuration: ""
+[2.877s] -- Execute custom install script
+[2.879s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs
+[2.885s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.h
+[2.885s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.h
+[2.885s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.h
+[2.885s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.h
+[2.886s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.h
+[2.886s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h
+[2.886s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.h
+[2.886s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.h
+[2.887s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.h
+[2.888s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.h
+[2.889s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.h
+[2.890s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.h
+[2.891s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.h
+[2.892s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.h
+[2.895s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.h
+[2.900s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.h
+[2.906s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.h
+[2.930s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.h
+[2.931s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.h
+[2.931s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.h
+[2.932s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.932s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.h
+[2.935s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.h
+[2.936s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.h
+[2.937s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.h
+[2.938s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.h
+[2.942s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.h
+[2.943s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.h
+[2.943s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh
+[2.943s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv
+[2.944s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[2.946s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[2.947s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[2.949s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[2.949s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[2.950s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.950s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[2.950s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[2.955s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[2.956s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[2.956s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[2.956s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[2.957s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[2.957s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.958s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[2.959s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[2.959s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[2.962s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[2.964s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[2.964s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[2.964s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[2.967s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__builder.hpp
+[2.968s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.hpp
+[2.969s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__traits.hpp
+[2.969s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.hpp
+[2.970s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp
+[2.970s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp
+[2.971s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp
+[2.972s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[2.972s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__builder.hpp
+[2.973s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.hpp
+[2.974s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__traits.hpp
+[2.974s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.hpp
+[2.975s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__builder.hpp
+[2.976s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.hpp
+[2.976s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__traits.hpp
+[2.977s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.hpp
+[2.977s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__builder.hpp
+[2.978s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.hpp
+[2.978s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__traits.hpp
+[2.979s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.hpp
+[2.979s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.hpp
+[2.981s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.hpp
+[2.982s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.hpp
+[2.983s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp
+[2.985s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp
+[2.986s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp
+[2.987s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp
+[2.995s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.hpp
+[2.995s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__builder.hpp
+[2.995s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__traits.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.hpp
+[2.996s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__builder.hpp
+[2.998s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.hpp
+[2.999s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__traits.hpp
+[2.999s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.hpp
+[3.000s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.hpp
+[3.001s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.hpp
+[3.002s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.hpp
+[3.003s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.hpp
+[3.005s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.hpp
+[3.006s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.hpp
+[3.008s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.hpp
+[3.011s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.012s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[3.013s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.013s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[3.014s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.015s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.016s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[3.017s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.018s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.019s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.020s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[3.021s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.022s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[3.024s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[3.025s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[3.026s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[3.027s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[3.028s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[3.042s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[3.042s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[3.043s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[3.045s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[3.045s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[3.046s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[3.048s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[3.049s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh
+[3.050s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv
+[3.050s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/PKG-INFO
+[3.051s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/SOURCES.txt
+[3.051s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/dependency_links.txt
+[3.052s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-1.2.2-py3.10.egg-info/top_level.txt
+[3.055s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py
+[3.056s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c
+[3.056s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.057s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.058s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so
+[3.058s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py
+[3.059s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py
+[3.060s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info_s.c
+[3.060s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py
+[3.061s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics_s.c
+[3.062s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py
+[3.062s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info_s.c
+[3.063s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py
+[3.063s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata_s.c
+[3.064s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py
+[3.064s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd_s.c
+[3.065s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.065s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.065s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.066s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py
+[3.066s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py
+[3.067s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool_s.c
+[3.067s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py
+[3.068s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c
+[3.069s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py
+[3.069s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info_s.c
+[3.069s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py
+[3.070s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32_s.c
+[3.070s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py
+[3.071s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string_s.c
+[3.072s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py
+[3.072s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32_s.c
+[3.074s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py
+[3.074s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string_s.c
+[3.074s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.075s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.076s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.076s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl
+[3.077s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl
+[3.078s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl
+[3.078s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.idl
+[3.079s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.idl
+[3.080s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl
+[3.081s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl
+[3.081s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl
+[3.084s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl
+[3.086s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl
+[3.087s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl
+[3.088s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl
+[3.088s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg
+[3.089s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg
+[3.091s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg
+[3.094s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.msg
+[3.095s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.msg
+[3.100s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv
+[3.101s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg
+[3.103s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg
+[3.104s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv
+[3.105s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg
+[3.105s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg
+[3.106s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv
+[3.106s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg
+[3.109s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg
+[3.109s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv
+[3.109s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg
+[3.110s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg
+[3.111s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv
+[3.112s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg
+[3.115s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg
+[3.117s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv
+[3.118s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg
+[3.120s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg
+[3.127s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv
+[3.128s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg
+[3.129s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg
+[3.131s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs
+[3.134s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs
+[3.135s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh
+[3.136s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv
+[3.136s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh
+[3.137s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv
+[3.137s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash
+[3.138s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh
+[3.138s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh
+[3.140s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv
+[3.141s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv
+[3.179s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs
+[3.181s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[3.182s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.183s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.184s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.185s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.186s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.187s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.187s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake
+[3.188s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake
+[3.190s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml
+[3.191s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+[3.193s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[3.194s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so
+[3.196s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
+[3.197s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.198s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[3.199s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so
+[3.296s] Listing '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs'...
+[3.297s] Listing '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg'...
+[3.297s] Listing '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv'...
+[3.311s] -- Installing: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so
+[3.313s] -- Set non-toolchain portion of runtime path of "/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so" to ""
+[3.315s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport.cmake
+[3.315s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.317s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.317s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.318s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.319s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.320s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake
+[3.321s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.322s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cppExport.cmake
+[3.323s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.324s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.326s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.326s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.327s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake
+[3.328s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.329s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport.cmake
+[3.329s] -- Up-to-date: /home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.364s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45202 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs

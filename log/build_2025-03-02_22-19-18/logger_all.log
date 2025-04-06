@@ -1,0 +1,847 @@
+[0.262s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.262s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9d22abf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9d363a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9d363a00>>, mixin_verb=('build',))
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.697s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin_nano/turtlebot3_ws'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ros'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'cmake'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'ros'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['cmake', 'python']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'cmake'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'python'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extensions ['python_setup_py']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs) by extension 'python_setup_py'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'ignore_ament_install'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['colcon_pkg']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'colcon_pkg'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'ros'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['cmake', 'python']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'cmake'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/docs/images) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[0.744s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[0.747s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ignore_ament_install'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_pkg']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ld08_driver) by extension 'ros'
+[0.751s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[0.755s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ros'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ros'
+[0.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[0.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ultralytics_ros' with type 'ros.ament_cmake' and name 'ultralytics_ros'
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/orin_nano/turtlebot3_ws/install
+[0.859s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_args' from command line to 'None'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target' from command line to 'None'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.928s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'ld08_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.929s] DEBUG:colcon.colcon_core.verb:Building package 'ld08_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/ld08_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/ld08_driver', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/ld08_driver', 'symlink_install': True, 'test_result_base': None}
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.929s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.930s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_args' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target' from command line to 'None'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.931s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/orbbec_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/orbbec_description', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_description', 'symlink_install': True, 'test_result_base': None}
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.932s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_description', 'symlink_install': True, 'test_result_base': None}
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.933s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_example', 'symlink_install': True, 'test_result_base': None}
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_node', 'symlink_install': True, 'test_result_base': None}
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_target' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] DEBUG:colcon.colcon_core.verb:Building package 'ultralytics_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/ultralytics_ros', 'symlink_install': True, 'test_result_base': None}
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.936s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/orbbec_camera', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': True, 'test_result_base': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.938s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/turtlebot3_ws/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/turtlebot3_ws/install/turtlebot3', 'merge_install': False, 'path': '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3', 'symlink_install': True, 'test_result_base': None}
+[0.938s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.941s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[0.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_description'
+[0.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[0.955s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_node'
+[0.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with build type 'ament_cmake'
+[0.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs'
+[0.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.001s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/ld08_driver' with build type 'ament_cmake'
+[1.001s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/ld08_driver'
+[1.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_description -- -j6 -l6
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs -- -j6 -l6
+[1.664s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_example'
+[1.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.455s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop'
+[2.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ld08_driver -- -j6 -l6
+[2.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_description -- -j6 -l6
+[3.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_description
+[4.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[4.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_description
+[4.344s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description' for CMake module files
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description' for CMake config files
+[4.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[4.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[4.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/bin'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/lib/python3.10/site-packages'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/bin'
+[4.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[4.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[4.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[4.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[4.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[4.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description' for CMake module files
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description' for CMake config files
+[4.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[4.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[4.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[4.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/bin'
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[4.470s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/lib/python3.10/site-packages'
+[4.470s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/bin'
+[4.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[4.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[4.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[4.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[4.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_description' with build type 'ament_cmake'
+[4.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_description'
+[4.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_description -- -j6 -l6
+[5.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_description -- -j6 -l6
+[5.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_description
+[6.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[6.714s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description' for CMake module files
+[6.715s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description' for CMake config files
+[6.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[6.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[6.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[6.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[6.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_description
+[6.721s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/bin'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/lib/python3.10/site-packages'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/bin'
+[6.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[6.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[6.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[6.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[6.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[6.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[6.766s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description' for CMake module files
+[6.767s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description' for CMake config files
+[6.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[6.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/bin'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/lib/python3.10/site-packages'
+[6.811s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_description/bin'
+[6.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[6.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[6.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[6.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[6.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[6.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/ultralytics_ros' with build type 'ament_cmake'
+[6.896s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/ultralytics_ros'
+[6.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ultralytics_ros -- -j6 -l6
+[7.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example': NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[7.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop': NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[12.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath_develop')
+[12.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.ps1'
+[12.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.dsv'
+[12.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/share/turtlebot3_example/hook/pythonpath_develop.sh'
+[12.518s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example' for CMake module files
+[12.519s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example' for CMake config files
+[12.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_example' returned '0': NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[12.521s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib'
+[12.522s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/bin'
+[12.522s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/pkgconfig/turtlebot3_example.pc'
+[12.522s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages'
+[12.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[12.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.ps1'
+[12.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.dsv'
+[12.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.sh'
+[12.543s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/bin'
+[12.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[12.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/package.ps1'
+[12.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/package.dsv'
+[12.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/package.sh'
+[12.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/package.bash'
+[12.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example/package.zsh'
+[12.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/share/colcon-core/packages/turtlebot3_example)
+[14.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath_develop')
+[14.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.ps1'
+[14.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.dsv'
+[14.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop' returned '0': NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[14.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath_develop.sh'
+[14.100s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop' for CMake module files
+[14.101s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop' for CMake config files
+[14.102s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib'
+[14.103s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/bin'
+[14.103s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[14.104s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages'
+[14.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[14.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[14.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[14.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/bin'
+[14.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[14.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[14.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[14.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[14.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[14.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[30.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ld08_driver -- -j6 -l6
+[30.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ld08_driver
+[30.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[30.601s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver' for CMake module files
+[30.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ld08_driver
+[30.603s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver' for CMake config files
+[30.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[30.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[30.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[30.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[30.608s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib'
+[30.609s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/bin'
+[30.609s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[30.609s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/python3.10/site-packages'
+[30.609s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/bin'
+[30.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[30.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[30.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[30.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[30.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[30.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[30.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ld08_driver)
+[30.617s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver' for CMake module files
+[30.618s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver' for CMake config files
+[30.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('ld08_driver', 'cmake_prefix_path')
+[30.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.ps1'
+[30.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.dsv'
+[30.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/hook/cmake_prefix_path.sh'
+[30.622s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib'
+[30.622s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/bin'
+[30.622s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/pkgconfig/ld08_driver.pc'
+[30.622s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/python3.10/site-packages'
+[30.623s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ld08_driver/bin'
+[30.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.ps1'
+[30.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv'
+[30.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.sh'
+[30.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.bash'
+[30.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.zsh'
+[30.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/ld08_driver/share/colcon-core/packages/ld08_driver)
+[36.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs -- -j6 -l6
+[36.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs
+[36.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[36.716s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs' for CMake module files
+[36.717s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs' for CMake config files
+[36.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[36.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[36.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[36.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[36.725s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib'
+[36.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[36.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[36.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[36.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs
+[36.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[36.729s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/bin'
+[36.729s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[36.730s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[36.730s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/bin'
+[36.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[36.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[36.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[36.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[36.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[36.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[36.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[36.738s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs' for CMake module files
+[36.739s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs' for CMake config files
+[36.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[36.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[36.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[36.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[36.747s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib'
+[36.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[36.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[36.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[36.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[36.749s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/bin'
+[36.750s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[36.750s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[36.750s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/bin'
+[36.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[36.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[36.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[36.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[36.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[36.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[36.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[36.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/OrbbecSDK_ROS2/orbbec_camera'
+[36.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera -- -j6 -l6
+[97.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/ultralytics_ros -- -j6 -l6
+[97.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ultralytics_ros
+[97.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultralytics_ros)
+[97.747s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros' for CMake module files
+[97.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/ultralytics_ros
+[97.750s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros' for CMake config files
+[97.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'cmake_prefix_path')
+[97.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.ps1'
+[97.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.dsv'
+[97.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.sh'
+[97.760s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib'
+[97.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'ld_library_path_lib')
+[97.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.ps1'
+[97.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.dsv'
+[97.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.sh'
+[97.766s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/bin'
+[97.766s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/pkgconfig/ultralytics_ros.pc'
+[97.767s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/python3.10/site-packages'
+[97.768s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/bin'
+[97.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.ps1'
+[97.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv'
+[97.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.sh'
+[97.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.bash'
+[97.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.zsh'
+[97.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/colcon-core/packages/ultralytics_ros)
+[97.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultralytics_ros)
+[97.777s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros' for CMake module files
+[97.779s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros' for CMake config files
+[97.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'cmake_prefix_path')
+[97.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.ps1'
+[97.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.dsv'
+[97.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.sh'
+[97.784s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib'
+[97.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'ld_library_path_lib')
+[97.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.ps1'
+[97.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.dsv'
+[97.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.sh'
+[97.787s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/bin'
+[97.787s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/pkgconfig/ultralytics_ros.pc'
+[97.787s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib/python3.10/site-packages'
+[97.788s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/bin'
+[97.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.ps1'
+[97.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv'
+[97.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.sh'
+[97.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.bash'
+[97.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/ultralytics_ros/package.zsh'
+[97.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/share/colcon-core/packages/ultralytics_ros)
+[101.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[101.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_node
+[102.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[102.038s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node' for CMake module files
+[102.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_node
+[102.043s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node' for CMake config files
+[102.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[102.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[102.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[102.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[102.047s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib'
+[102.048s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/bin'
+[102.048s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[102.048s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib/python3.10/site-packages'
+[102.049s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/bin'
+[102.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[102.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[102.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[102.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[102.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[102.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[102.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[102.055s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node' for CMake module files
+[102.056s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node' for CMake config files
+[102.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[102.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[102.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[102.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[102.061s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib'
+[102.061s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/bin'
+[102.061s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[102.062s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib/python3.10/site-packages'
+[102.062s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/bin'
+[102.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[102.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[102.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[102.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[102.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[102.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[102.070s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup' with build type 'ament_cmake'
+[102.070s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup'
+[102.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[102.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[102.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup -- -j6 -l6
+[102.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup -- -j6 -l6
+[102.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup
+[102.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[102.510s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup' for CMake module files
+[102.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_bringup
+[102.512s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup' for CMake config files
+[102.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[102.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[102.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[102.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[102.519s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/bin'
+[102.520s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[102.521s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[102.521s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/bin'
+[102.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[102.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[102.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[102.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[102.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[102.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[102.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[102.532s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup' for CMake module files
+[102.533s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup' for CMake config files
+[102.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[102.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[102.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[102.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[102.537s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/bin'
+[102.538s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[102.539s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/lib/python3.10/site-packages'
+[102.539s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/bin'
+[102.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[102.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[102.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[102.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[102.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[102.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[102.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3' with build type 'ament_cmake'
+[102.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/turtlebot3_ws/src/turtlebot3/turtlebot3'
+[102.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[102.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[102.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3': AMENT_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/build/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3 -- -j6 -l6
+[102.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/build/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3 -- -j6 -l6
+[102.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3': AMENT_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/build/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3
+[102.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[102.991s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3' for CMake module files
+[102.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/opt/ros/humble CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/build/turtlebot3_example:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages:/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3
+[102.994s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3' for CMake config files
+[102.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[102.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[102.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[102.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[103.000s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/bin'
+[103.001s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[103.002s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/lib/python3.10/site-packages'
+[103.003s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/bin'
+[103.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.ps1'
+[103.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.dsv'
+[103.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.sh'
+[103.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.bash'
+[103.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.zsh'
+[103.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[103.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[103.014s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3' for CMake module files
+[103.015s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3' for CMake config files
+[103.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[103.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[103.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[103.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[103.021s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/bin'
+[103.022s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[103.023s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/lib/python3.10/site-packages'
+[103.023s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/turtlebot3/bin'
+[103.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.ps1'
+[103.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.dsv'
+[103.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.sh'
+[103.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.bash'
+[103.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.zsh'
+[103.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[407.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_camera -- -j6 -l6
+[407.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera
+[408.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[408.029s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera' for CMake module files
+[408.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_camera' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros:/home/orin_nano/turtlebot3_ws/install/turtlebot3:/home/orin_nano/turtlebot3_ws/install/turtlebot3_bringup:/home/orin_nano/turtlebot3_ws/install/turtlebot3_node:/home/orin_nano/turtlebot3_ws/install/turtlebot3_description:/home/orin_nano/turtlebot3_ws/install/orbbec_description:/home/orin_nano/turtlebot3_ws/install/orbbec_camera:/home/orin_nano/turtlebot3_ws/install/ld08_driver:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/orin_nano/turtlebot3_ws/install/orbbec_camera_msgs/lib:/home/orin_nano/turtlebot3_ws/install/ultralytics_ros/lib:/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_camera
+[408.039s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera' for CMake config files
+[408.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[408.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[408.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[408.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[408.051s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib'
+[408.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[408.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[408.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[408.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[408.054s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/bin'
+[408.055s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[408.055s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[408.056s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/bin'
+[408.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[408.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[408.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[408.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[408.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[408.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[408.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera)
+[408.069s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera' for CMake module files
+[408.070s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera' for CMake config files
+[408.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'cmake_prefix_path')
+[408.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.ps1'
+[408.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.dsv'
+[408.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/cmake_prefix_path.sh'
+[408.079s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib'
+[408.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera', 'ld_library_path_lib')
+[408.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.ps1'
+[408.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.dsv'
+[408.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/hook/ld_library_path_lib.sh'
+[408.085s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/bin'
+[408.085s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/pkgconfig/orbbec_camera.pc'
+[408.086s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/lib/python3.10/site-packages'
+[408.087s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/bin'
+[408.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.ps1'
+[408.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.dsv'
+[408.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.sh'
+[408.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.bash'
+[408.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/orbbec_camera/package.zsh'
+[408.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/turtlebot3_ws/install/orbbec_camera/share/colcon-core/packages/orbbec_camera)
+[408.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[408.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[408.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[408.098s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[408.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[408.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[408.127s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[408.220s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[408.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/turtlebot3_ws/install/local_setup.ps1'
+[408.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin_nano/turtlebot3_ws/install/_local_setup_util_ps1.py'
+[408.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/turtlebot3_ws/install/setup.ps1'
+[408.234s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/turtlebot3_ws/install/local_setup.sh'
+[408.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin_nano/turtlebot3_ws/install/_local_setup_util_sh.py'
+[408.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/turtlebot3_ws/install/setup.sh'
+[408.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/turtlebot3_ws/install/local_setup.bash'
+[408.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/turtlebot3_ws/install/setup.bash'
+[408.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/turtlebot3_ws/install/local_setup.zsh'
+[408.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/turtlebot3_ws/install/setup.zsh'

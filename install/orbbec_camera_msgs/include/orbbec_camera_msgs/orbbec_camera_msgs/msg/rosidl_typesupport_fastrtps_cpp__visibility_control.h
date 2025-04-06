@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

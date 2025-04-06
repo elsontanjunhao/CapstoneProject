@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h

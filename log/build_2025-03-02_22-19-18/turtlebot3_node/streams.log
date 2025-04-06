@@ -1,0 +1,42 @@
+[0.078s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[1.573s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.574s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.574s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.574s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.574s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.574s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[6.440s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[50.918s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[59.882s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[69.216s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[79.094s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[88.322s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[89.308s] [ 85%] Built target turtlebot3_node_lib
+[89.364s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[97.210s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[100.860s] [100%] Built target turtlebot3_ros
+[100.887s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[100.894s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_node
+[101.048s] -- Install configuration: ""
+[101.049s] -- Execute custom install script
+[101.050s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[101.050s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[101.051s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[101.051s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[101.052s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[101.052s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[101.053s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[101.053s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[101.053s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[101.054s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[101.054s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[101.055s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[101.055s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[101.055s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[101.055s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[101.074s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[101.076s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.077s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[101.078s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[101.079s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[101.084s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 38652 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/turtlebot3_node

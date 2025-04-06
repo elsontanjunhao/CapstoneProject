@@ -1,0 +1,24 @@
+[1.892s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[2.453s] running develop
+[2.787s] running egg_info
+[2.787s] creating turtlebot3_teleop.egg-info
+[2.787s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.787s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.788s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.788s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.788s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.789s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.794s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.795s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.798s] running build_ext
+[2.799s] Creating /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.803s] Installing teleop_keyboard script to /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.803s] 
+[2.803s] Installed /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop
+[2.804s] running symlink_data
+[2.804s] creating /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[2.805s] creating /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[2.805s] creating /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.806s] symbolically linking /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.806s] symbolically linking /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/package.xml -> /home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[2.956s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orin_nano/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

@@ -1,0 +1,40 @@
+[0.102s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45880 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_description -- -j6 -l6
+[0.472s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45880 192.168.1.104 4000 /usr/local/bin/cmake --build /home/orin_nano/turtlebot3_ws/build/orbbec_description -- -j6 -l6
+[0.477s] Invoking command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45880 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_description
+[0.696s] -- Install configuration: ""
+[0.701s] -- Execute custom install script
+[0.701s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/launch/launch_utils.py
+[0.701s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/launch/view_model.launch.py
+[0.702s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/AstraPlus.stl
+[0.702s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl
+[0.702s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL
+[0.703s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL
+[0.703s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL
+[0.704s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL
+[0.704s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL
+[0.704s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_frame.STL
+[0.705s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_optical_frame.STL
+[0.705s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_frame.STL
+[0.706s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_optical_frame.STL
+[0.706s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_link.STL
+[0.709s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/urdf/_gemini_335_336.urdf.xacro
+[0.709s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/urdf/femto_bolt.urdf.xacro
+[0.709s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_335.urdf.xarco
+[0.710s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_336.urdf.xarco
+[0.711s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/rviz/urdf.rviz
+[0.711s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[0.719s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[0.720s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[0.720s] -- Symlinking: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[0.776s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[0.777s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[0.777s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[0.778s] -- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/orbbec_description/share/orbbec_description/package.xml
+[0.788s] Invoked command in '/home/orin_nano/turtlebot3_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/turtlebot3_ws/install/turtlebot3_teleop:/home/orin_nano/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble NX_CONNECTION=192.168.1.69 45880 192.168.1.104 4000 /usr/local/bin/cmake --install /home/orin_nano/turtlebot3_ws/build/orbbec_description

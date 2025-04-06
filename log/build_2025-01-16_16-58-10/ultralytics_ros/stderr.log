@@ -1,0 +1,4 @@
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+/usr/bin/ld: warning: libopencv_calib3d.so.4.5d, needed by /opt/ros/humble/lib/libimage_geometry.so, may conflict with libopencv_calib3d.so.410
+/usr/bin/ld: warning: libtbb.so.2, needed by /lib/aarch64-linux-gnu/libopencv_core.so.4.5d, may conflict with libtbb.so.12

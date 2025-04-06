@@ -1,0 +1,32 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[01m[K/home/orin_nano/turtlebot3_ws/src/ld08_driver/src/transform.cpp:[m[K In constructor ‘[01m[KSlTransform::SlTransform(LDVersion, bool)[m[K’:
+[01m[K/home/orin_nano/turtlebot3_ws/src/ld08_driver/src/transform.cpp:30:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_right_hand[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 | SlTransform::SlTransform(LDVersion version, [01;35m[Kbool to_right_hand[m[K)
+      |                                             [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable ld08_driver[0m
+[100%] Built target ld08_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/lib/ld08_driver/ld08_driver
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.sh
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/environment/path.dsv
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.bash
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.sh
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.zsh
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/local_setup.dsv
+-- Symlinking: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.dsv
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+-- Up-to-date symlink: /home/orin_nano/turtlebot3_ws/install/ld08_driver/share/ld08_driver/package.xml

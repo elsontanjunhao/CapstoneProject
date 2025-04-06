@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/orbbec_camera_msgs/ament_cmake_environment_hooks/pythonpath.sh

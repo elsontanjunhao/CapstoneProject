@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orin_nano/turtlebot3_ws/build/ultralytics_ros/rosidl_generator_py/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "ultralytics_ros__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ultralytics_ros")

@@ -1,0 +1,1 @@
+/home/orin_nano/turtlebot3_ws/build/ultralytics_ros/rosidl_generator_c/ultralytics_ros/msg/detail/segmentation__type_support.h
